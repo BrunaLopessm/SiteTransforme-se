@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    color: #fff;
+    transition: 3s;
+
+}
+a:hover{
+opacity: 0.7;
+}
+main {
+    background-image: url("../imagens/images (3).jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    height: 92vh;
+    width: 100vw;
+ }
+nav {
+    display:flex;
+    justify-content: space-around;
+    align-items:center;
+    font-family: Arial, Helvetica, sans-serif;
+    background:  #8B3197;
+    height: 8vh;
+
+}
+.nav-list li{
+   list-style: none;
+   display: flex;
+ 
+}
+.nav-list li {
+    letter-spacing: 3px;
+    margin-left: 32px;
+}
