@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+body{
+    background-color: #e8e8e8;
+}
 a{
     color: #fff;
     transition: 3s;
@@ -11,7 +14,7 @@ a:hover{
 opacity: 0.7;
 }
 main {
-    background-image: url("../imagens/images (3).jpeg");
+    background-image: url("../imagens/Gemini_Generated_Image_efi6nvefi6nvefi6.jfif");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -36,4 +39,91 @@ nav {
 .nav-list li {
     letter-spacing: 3px;
     margin-left: 32px;
+}
+.rosa{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Quicksand', sans-serif;
+    color: #E73788;
+    font-size: 30px;
+    margin-top: 40px;
+
+}
+
+.textin-bobo{
+    display: flex;
+    margin-left: 250px;
+
+}
+.roxin {
+    margin-top: 40px;
+    color: #fff;
+    display: flex;
+    background-color: #8B3197;
+    margin-right: 20px;
+    border-radius: 20px;
+    height: 240px;
+    width: 800px;
+    font-size: 12px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+
+}
+.branco {
+    margin-top: 12px;
+    color: #000000;
+    text-align: right;
+    width: 100%;
+}
+.carroussel {
+
+    margin: 100px auto;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-x: auto;
+}
+.carroussel::-webkit-scrollbar{
+    display: none;
+
+}
+.grupo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    padding-right: 1em;
+    animation: spin 5s infinite linear;
+
+}
+.card{
+    flex: 0 0 10em;
+    height: 10em;
+    padding: 5em;
+    border-radius: .2em;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    background-color: aqua;
+}
+@keyframes spin{
+    from {translate: 0;}
+    to {translate: -100%}
+
+}
+footer{
+    display:flex;
+    font-family: Arial, Helvetica, sans-serif;
+    background:  #8B3197;
+    height: 40vh;
+}
+.banana{
+  margin-left: 10px;
+}
+.maca{
+    justify-content: right;
 }
